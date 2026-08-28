@@ -1,10 +1,313 @@
+html
 <!DOCTYPE html>
-<html>
+<html lang="my">
 <head>
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>တရားနဲ့ဘဝ</title>
+
+  <meta name="description"
+        content="တရားကို ရွတ်ဆိုရုံမဟုတ်ဘဲ နားလည်ပြီး ဘဝမှာ ကျင့်ကြံနိုင်ရန်။">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans Myanmar", Arial, sans-serif;
+      background: #f7f5ef;
+      color: #3d3d35;
+      line-height: 1.9;
+    }
+
+    header {
+      background: linear-gradient(135deg, #496b54, #78956f);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+      font-weight: 600;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 16px;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      padding: 12px 10px;
+      border-bottom: 1px solid #e5e1d7;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #496b54;
+      text-decoration: none;
+      margin: 0 8px;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 35px 18px;
+    }
+
+    .intro {
+      background: white;
+      padding: 28px 22px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .intro h2 {
+      color: #496b54;
+      margin-top: 0;
+    }
+
+    .quote {
+      color: #776b4f;
+      font-size: 17px;
+      margin: 15px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #496b54;
+      margin: 35px 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 18px;
+      border-radius: 15px;
+      border-left: 5px solid #78956f;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #496b54;
+    }
+
+    .card p {
+      margin-bottom: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #496b54;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .button:hover {
+      background: #36543f;
+    }
+
+    footer {
+      background: #3f5947;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: 45px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 45px 15px;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+
+      .container {
+        padding: 25px 14px;
+      }
+
+      nav a {
+        margin: 0 4px;
+        font-size: 13px;
+      }
+    }
+  </style>
 </head>
-<body style="text-align:center; font-family:sans-serif; margin-top:50px;">
-    <h1>မင်္ဂလာပါ၊ ဒါကျွန်ုပ်၏ Website ဖြစ်ပါတယ်။</h1>
-    <p>GitHub Pages နဲ့ ဖန်တီးထားတာဖြစ်ပါတယ်။</p>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🌿 တရားနဲ့ဘဝ</h1>
+
+    <p>
+      ရွတ်ဆိုခြင်းထက် နားလည်ဖို့<br>
+      ပူဇော်ခြင်းထက် ကျင့်ကြံဖို့
+    </p>
+  </header>
+
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#home">ပင်မစာမျက်နှာ</a>
+    <a href="#dhamma">တရားအကြောင်း</a>
+    <a href="#life">တရားနဲ့ဘဝ</a>
+  </nav>
+
+
+  <main class="container">
+
+    <!-- INTRO -->
+    <section id="home" class="intro">
+
+      <h2>🪷 တရားနဲ့ဘဝမှ ကြိုဆိုပါတယ်</h2>
+
+      <p class="quote">
+        “တရားကို သိရုံနဲ့ မပြီးပါ။<br>
+        နားလည်ပြီး ဘဝမှာ ကျင့်ကြံနိုင်ဖို့ လိုပါတယ်။”
+      </p>
+
+      <p>
+        ဒီစာမျက်နှာလေးမှာ ဗုဒ္ဓတရားတော်များကို
+        အခြေခံကနေ နားလည်လွယ်အောင် လေ့လာနိုင်ပြီး
+        နေ့စဉ်ဘဝမှာ ဘယ်လိုအသုံးချနိုင်မလဲဆိုတာ
+        အတူတူလေ့လာသွားကြပါမယ်။
+      </p>
+
+    </section>
+
+
+    <!-- DHAMMA -->
+    <h2 id="dhamma" class="section-title">
+      🪷 တရားအကြောင်း
+    </h2>
+
+
+    <!-- ARTICLE 1 -->
+    <article class="card">
+
+      <h3>🙏 ဘုရားဂုဏ်တော် ၉ ပါး</h3>
+
+      <p>
+        ဘုရားဂုဏ်တော်ကို ရွတ်ဆိုပူဇော်ရုံသာမက
+        ဂုဏ်တော်တစ်ပါးချင်းစီရဲ့ အဓိပ္ပါယ်ကို
+        နားလည်ပြီး ကိုယ့်ဘဝမှာ အတုယူကျင့်ကြံနိုင်ဖို့
+        လေ့လာကြည့်ကြရအောင်။
+      </p>
+
+      <!-- နောက်မှ article link ထည့်နိုင်သည် -->
+      <a class="button" href="#">
+        အပြည့်အစုံဖတ်ရန် →
+      </a>
+
+    </article>
+
+
+    <!-- ARTICLE 2 -->
+    <article class="card">
+
+      <h3>📖 မင်္ဂလာသုတ်</h3>
+
+      <p>
+        မင်္ဂလာဆိုတာ ဘဝမှာ ကောင်းကျိုးဖြစ်စေတဲ့
+        အကြောင်းတရားများကို သိမြင်ပြီး
+        လက်တွေ့ကျင့်ကြံခြင်းနဲ့ ဆက်စပ်နေပါတယ်။
+      </p>
+
+      <a class="button" href="#">
+        အပြည့်အစုံဖတ်ရန် →
+      </a>
+
+    </article>
+
+
+    <!-- ARTICLE 3 -->
+    <article class="card">
+
+      <h3>🌱 တရားနဲ့နေ့စဉ်ဘဝ</h3>
+
+      <p>
+        တရားဆိုတာ ဘုရားစင်ရှေ့မှာပဲ ရှိတာမဟုတ်ပါ။
+        ကိုယ့်စိတ်၊ ကိုယ့်စကားနဲ့ ကိုယ့်အပြုအမူတွေထဲမှာ
+        နေ့စဉ်လက်တွေ့ကျင့်ကြံနိုင်ပါတယ်။
+      </p>
+
+      <a class="button" href="#">
+        အပြည့်အစုံဖတ်ရန် →
+      </a>
+
+    </article>
+
+
+    <!-- LIFE -->
+    <h2 id="life" class="section-title">
+      🌿 တရားနဲ့ဘဝ
+    </h2>
+
+
+    <article class="card">
+
+      <h3>💭 နားလည်ခြင်း → သဘောပေါက်ခြင်း → ကျင့်ကြံခြင်း</h3>
+
+      <p>
+        တရားကို ကြားရုံ၊ ဖတ်ရုံ၊ ရွတ်ဆိုရုံနဲ့ မပြီးသေးပါ။
+        ကိုယ်တိုင်နားလည်ပြီး ကိုယ့်ဘဝမှာ
+        လက်တွေ့အသုံးချနိုင်တဲ့အခါမှ
+        တရားဟာ ဘဝထဲမှာ အသက်ဝင်လာပါတယ်။
+      </p>
+
+    </article>
+
+
+    <!-- CLOSING -->
+    <section class="intro">
+
+      <h2>🤍 အတူတူလေ့လာကြရအောင်</h2>
+
+      <p>
+        မသိတာကို သိအောင်ရှာဖွေခြင်း၊
+        သိတာကို နားလည်အောင်စဉ်းစားခြင်း၊
+        နားလည်တာကို ဘဝမှာ ကျင့်ကြံခြင်း။
+      </p>
+
+      <p class="quote">
+        “တရားကို ဘဝထဲမှာ အသက်ဝင်စေကြစို့။” 🌿
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>🌿 တရားနဲ့ဘဝ</p>
+
+    <p>
+      နားလည်ခြင်းမှ ကျင့်ကြံခြင်းသို့
+    </p>
+
+  </footer>
+
 </body>
 </html>
